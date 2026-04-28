@@ -8,7 +8,7 @@ int main(int argc, char* argv[]) {
     cout << "Program name: " << (argc > 0 ? argv[0] : "(none)") << endl;
     cout << "Argument count: " << argc << endl;
 
-    for (int i = 1; i < argc; ++i) {
+    for (int i = 0; i < argc; ++i) {
         cout << "argv[" << i << "] = " << argv[i] << endl;
     }
 
